@@ -85,6 +85,11 @@ a{
     .discover{
         font-size: large;
     }
+    img{
+        border-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
 }
 @media(max-width:1013px){
     .card{
@@ -102,16 +107,31 @@ a{
         font-size: small;
     }
 }
-/* @media(max-width:865px){
+@media(max-width:522px){
+    main{
+        width: 80%;
+        margin-top:5rem ;
+    }
+    .card{
+        padding-right:1rem ;
+        padding-left: 1rem;
+    }
+}
+@media(max-width:436px){
     .discover{
-        padding-bottom: 1.5rem;
+        font-size: 15px;
     }
-} */
-/* @media(max-width:849px){
-    h1{
-        font-size: 17px;
+}
+@media(max-width:370px){
+    main{
+        width: 90%;
     }
-    .img{
-        width: ;
+    .attribution{
+        font-size: small;
     }
-} */
+}
+@media(max-width:295px){
+    .attribution{
+        font-size: 10px;
+    }
+}
